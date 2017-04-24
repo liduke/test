@@ -15,9 +15,11 @@ public class HelloWorld {
             geWei = i - baiWei * 100 - shiWei * 10;
             if (i == geWei * geWei * geWei + shiWei * shiWei * shiWei + baiWei * baiWei * baiWei) {
                 System.out.println(i);
-                System.out.println(i);
-                System.out.println(i);
             }
         }
+    }
+
+    public static void getInfo(){
+        /*test*/
     }
 }
